@@ -34,14 +34,12 @@ button::-moz-focus-inner {
 /*===Текста===*/
 .block_column_name {
 width: 100vw;
-height: 142px;
 font-weight: 500;
 font-size: 124px;
     text-align: center;
     color: white;
 }
 .block_column_nameplus {
-height: 34px;
 font-weight: 500;
 font-size: 30px;
     margin: 0 auto;
@@ -49,7 +47,6 @@ font-size: 30px;
     color: white;
 }
 .block_column_maininfo {
-height: 296px;
 font-weight: 500;
 font-size: 64px;
 margin: 0 auto;
@@ -58,7 +55,6 @@ text-align: center;
 }
 /*===Изображения===*/
 .block_column_imgarrow {
-    
     margin: 0 auto;
     margin-bottom: -20px;
 }
@@ -98,12 +94,12 @@ border-radius: 50px;
 
 }
 .buttoncenter {
+    height: 77px;
     font-weight: 500;
-    font-size: 64px;
     align-items: center;
     text-align: center;
     color: white;
-    margin: 0 auto;
+    margin: -50px auto 0;
 }
 .block_column_button:hover{
     background-color: white;
@@ -561,7 +557,7 @@ text-align: center;
 
 
 
-
+/*ПЯТЫЙ БЛОК*/
 
 .five_flexbutton {
         margin-top: 50px;
@@ -647,3 +643,39 @@ height: 347px;
 
 background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #939393 100%);
 }
+.oneblock_arrow {
+    width: 253px;
+}
+@media (max-width: 1350px)
+{
+    .block_column {
+    grid-gap: 15px;
+}
+    .logosetting{
+        width: 90px;
+        height: 90px;
+    }
+    .block_column_name{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .block_column_nameplus {
+        font-size: 12px;
+    }
+    .block_column_imgarrow {
+    
+    margin: 0 auto;
+    margin-bottom: 0px;
+    }
+    .oneblock_arrow {
+    width: 150px;
+    }
+    .block_column_maininfo {
+    font-size: 24px;
+    }
+    .block_column_button {
+        transform: scale(0.5)
+    }
+}
+
+
